@@ -23,6 +23,7 @@ length and the correlating sepal length.
 Setup:
 * must have python3 installed
 * place csv file in input folder
+* must have new version of numpy and matplotlib
 
 To run the script using the Linux terminal:
 * Use the terminal and navigate to folder containing the script and the input file
