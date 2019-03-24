@@ -1,13 +1,13 @@
-#Indoc-Coding-Challenge
+# Indoc-Coding-Challenge
 My solution to the Indoc Research coding Challenge.
 
-#Techinical Specifications
-##Assumptions
+# Techinical Specifications
+## Assumptions
 * Program only has to deal with one specific input: csv file containing 50 sets of data for three different 
 classes of iris plant
 * All users using this program are running it on Linux 
 
-##Design
+## Design
 I decided to go with a serial approach to parsing and processing the csv file given as input. Since I can 
 assume the input file is very specific and only contains 150 lines, splitting up the file and then parsing 
 the file using multiple processes is unnecessary and would actually take longer compared to the current method.
@@ -19,7 +19,7 @@ be directly connected. Alternatively, the opposite approach can be taken with a 
 petal length and y = average sepal length would also work to show the relationship between increasing petal
 length and the correlating sepal length.
 
-#How to Run the Script
+# How to Run the Script
 Setup:
 * must have python3 installed
 * place csv file in input folder
